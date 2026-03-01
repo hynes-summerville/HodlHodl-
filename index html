@@ -1,0 +1,581 @@
+box-shadow: 0 20px 30px -15px rgba(240, 185, 11, 0.15);
+            transform: translateY(-4px);
+        }
+
+        .card-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1.2rem;
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .coin-tag {
+            background: #1e2632;
+            border-radius: 30px;
+            padding: 0.2rem 0.7rem;
+            font-size: 0.75rem;
+            font-weight: 500;
+            color: #f0b90b;
+            letter-spacing: 0.3px;
+            border: 1px solid #2f3a48;
+        }
+
+        .multi-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+            margin-left: 0.5rem;
+        }
+
+        .card-desc {
+            color: #a0b3cc;
+            font-size: 0.98rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .feature-list {
+            list-style: none;
+        }
+
+        .feature-list li {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            margin-bottom: 0.6rem;
+            color: #ccdae9;
+            font-size: 0.95rem;
+        }
+
+        .feature-list li::before {
+            content: "▹";
+            color: #f0b90b;
+            font-weight: bold;
+        }
+
+        .package-highlight {
+            background: rgba(240, 185, 11, 0.05);
+            border: 1px dashed #f0b90b40;
+            border-radius: 1.8rem;
+            padding: 2rem;
+            margin-bottom: 3rem;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 2rem;
+        }
+
+        .package-highlight h3 {
+            font-size: 1.6rem;
+            font-weight: 500;
+            color: #f0b90b;
+        }
+
+        .package-highlight p {
+            color: #b4c8e0;
+            max-width: 600px;
+        }
+
+        .cta-button {
+            background: #f0b90b;
+            color: #0b0e12;
+            border: none;
+            padding: 0.9rem 2.2rem;
+            border-radius: 40px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            box-shadow: 0 8px 20px rgba(240, 185, 11, 0.3);
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .cta-button:hover {
+            background: #f5c42e;
+            transform: scale(1.02);
+            box-shadow: 0 12px 28px rgba(240, 185, 11, 0.5);
+        }
+
+        .footer-note {
+            margin-top: 2rem;
+            text-align: center;
+            color: #5f738c;
+            font-size: 0.95rem;
+            border-top: 1px solid #1e2632;
+            padding-top: 2rem;
+        }
+        
+        .contact-card {
+            background: rgba(18, 25, 35, 0.8);
+            border: 1px solid #3b4a5a;
+            border-radius: 2rem;
+            padding: 1.8rem;
+            flex: 1;
+            min-width: 260px;
+        }
+        
+        .contact-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.2rem;
+        }
+        
+        .contact-icon {
+            font-size: 2.5rem;
+        }
+        
+        .contact-title {
+            font-weight: 600;
+            font-size: 1.5rem;
+            color: #f0b90b;
+        }
+        
+        .contact-desc {
+            color: #b4c8e0;
+            margin-bottom: 1.2rem;
+            font-size: 0.95rem;
+        }
+        
+        .contact-button-primary {
+            background: #2b6cc4;
+            color: white;
+            padding: 0.9rem;
+            border-radius: 40px;
+            text-decoration: none;
+            text-align: center;
+            font-weight: 500;
+            display: block;
+            margin-bottom: 0.8rem;
+        }
+        
+        .contact-button-secondary {
+            border: 1px solid #3b4a5a;
+
+color: #e9f1f8;
+            padding: 0.7rem;
+            border-radius: 40px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 0.9rem;
+            display: block;
+        }
+        
+        .simplex-button {
+            background: #855ae0;
+            color: white;
+            padding: 0.9rem;
+            border-radius: 40px;
+            text-decoration: none;
+            text-align: center;
+            font-weight: 500;
+            display: block;
+            margin-bottom: 0.8rem;
+        }
+        
+        .contact-flex {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+            margin: 2rem 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <!-- header -->
+        <div class="header">
+            <div class="brand">
+                <div class="brand-icon">H</div>
+                <div class="brand-name">hodl<span class="gold">private</span></div>
+            </div>
+            <div class="badge">est. 2025 · full privacy concierge</div>
+        </div>
+
+        <!-- hero -->
+        <div class="hero">
+            <h1>Your <span>privacy</span> is the only collateral that matters.</h1>
+            <p>Hodl crypto · hold private · stay anonymous. One link for everything you don’t want linked to you.</p>
+        </div>
+
+        <!-- CRYPTO HODL section -->
+        <div class="section-title">
+            <span>⚡ long‑term private holdings</span>
+            <span class="line"></span>
+        </div>
+
+        <div class="card-grid">
+            <!-- XMR + FIRO (privacy coins) -->
+            <div class="service-card">
+                <div class="card-icon">🛡️</div>
+                <div class="card-title">
+                    Privacy coin vault 
+                    <span class="multi-tags">
+                        <span class="coin-tag">XMR</span>
+                        <span class="coin-tag">FIRO</span>
+                    </span>
+                </div>
+                <div class="card-desc">Untraceable, fungible, long‑term. The gold standard of financial privacy.</div>
+                <ul class="feature-list">
+                    <li>Cold storage / hardware</li>
+                    <li>Multi‑signature setup</li>
+                    <li>No KYC, ever</li>
+                </ul>
+            </div>
+
+            <!-- BTC + ETH (foundation) -->
+            <div class="service-card">
+                <div class="card-icon">₿</div>
+                <div class="card-title">
+                    Foundation assets
+                    <span class="multi-tags">
+                        <span class="coin-tag">BTC</span>
+                        <span class="coin-tag">ETH</span>
+                    </span>
+                </div>
+                <div class="card-desc">Secure, offline, with optional privacy layers.</div>
+                <ul class="feature-list">
+                    <li>Whale‑grade cold storage</li>
+                    <li>CoinJoin / mixing coordination</li>
+                    <li>Air‑gapped wallets</li>
+                </ul>
+            </div>
+
+            <!-- SOL + CELO (fast chains) -->
+            <div class="service-card">
+                <div class="card-icon">⚡</div>
+                <div class="card-title">
+                    High‑speed holdings
+                    <span class="multi-tags">
+                        <span class="coin-tag">SOL</span>
+                        <span class="coin-tag">CELO</span>
+                    </span>
+                </div>
+                <div class="card-desc">Fast chains, private access, self‑custody.</div>
+                <ul class="feature-list">
+                    <li>Staking support</li>
+                    <li>Mobile‑friendly setups</li>
+                    <li>DeFi without doxxing</li>
+                </ul>
+            </div>
+
+            <!-- USDT (stable) -->
+            <div class="service-card">
+                <div class="card-icon">💵</div>
+                <div class="card-title">
+                    Private stablecoin
+
+<span class="multi-tags">
+                        <span class="coin-tag">USDT</span>
+                    </span>
+                </div>
+                <div class="card-desc">Stability without surveillance.</div>
+                <ul class="feature-list">
+                    <li>Multi‑chain options</li>
+                    <li>Off‑ramp coordination</li>
+                    <li>No ID stable storage</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- REAL WORLD PRIVACY SERVICES section -->
+        <div class="section-title">
+            <span>📦 physical & proxy services</span>
+            <span class="line"></span>
+        </div>
+
+        <div class="card-grid">
+            <!-- mail/prints -->
+            <div class="service-card">
+                <div class="card-icon">📮</div>
+                <div class="card-title">Mail & print forwarding</div>
+                <div class="card-desc">Receive packages, letters, or docs — no address exposure.</div>
+                <ul class="feature-list">
+                    <li>Discrete remailing</li>
+                    <li>Scan & forward (digital)</li>
+                    <li>Re‑packaging for privacy</li>
+                </ul>
+            </div>
+
+            <!-- amazon proxy shopper -->
+            <div class="service-card">
+                <div class="card-icon">🛒</div>
+                <div class="card-title">Amazon proxy shopper</div>
+                <div class="card-desc">We buy it. You receive it. Amazon never sees your name.</div>
+                <ul class="feature-list">
+                    <li>Gift cards / cash accepted</li>
+                    <li>Ship anywhere</li>
+                    <li>No Amazon account needed</li>
+                </ul>
+            </div>
+
+            <!-- general proxy shopper -->
+            <div class="service-card">
+                <div class="card-icon">🛍️</div>
+                <div class="card-title">Proxy shopper (any store)</div>
+                <div class="card-desc">eBay, Etsy, Walmart, local shops — we're your ghost.</div>
+                <ul class="feature-list">
+                    <li>Worldwide purchasing</li>
+                    <li>Discreet billing</li>
+                    <li>Bulk / special requests</li>
+                </ul>
+            </div>
+
+            <!-- non‑kyc accounts -->
+            <div class="service-card">
+                <div class="card-icon">🔑</div>
+                <div class="card-title">Non‑KYC account sourcing</div>
+                <div class="card-desc">Exchanges, SIMs, payment apps, email — no ID, no trace.</</div>
+                <ul class="feature-list">
+                    <li>Verified non‑KYC platforms</li>
+                    <li>Private SIM / phone numbers</li>
+                    <li>Burner accounts ready to use</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- bundled package highlight -->
+        <div class="package-highlight">
+            <div>
+                <h3>⚡ The full "Hodlprivate package"</h3>
+                <p>Combine multi‑asset cold storage + mail forwarding + proxy shopping + non‑KYC accounts. One retainer, complete separation.</p>
+                <p style="margin-top: 0.8rem; color: #f0b90b; font-size: 0.95rem;">XMR · BTC · ETH · SOL · CELO · USDT · FIRO — all private, all cold.</p>
+            </div>
+            <a href="#" class="cta-button">Request private onboarding →</a>
+        </div>
+
+        <!-- CONTACT & APPS SECTION -->
+        <div style="margin: 3rem 0 2rem 0;">
+            <div class="section-title">
+                <span>📱 contact directly</span>
+                <span class="line"></span>
+            </div>
+            
+            <div class="contact-flex">
+                <!-- Signal -->
+                <div class="contact-card">
+                    <div class="contact-header">
+                        <span class="contact-icon">📱</span>
+                        <span class="contact-title">Signal</span>
+                    </div>
+                    <p class="contact-desc">Most private messenger.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hodlprivate · Complete Privacy Concierge</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #0b0e12;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            color: #edf3fa;
+            line-height: 1.5;
+            padding: 2rem 1.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .page {
+            max-width: 1400px;
+            width: 100%;
+        }
+
+        .glass {
+            background: rgba(20, 25, 32, 0.85);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 215, 0, 0.15);
+            border-radius: 2.5rem;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.9);
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .brand-icon {
+            background: #f0b90b;
+            color: #0b0e12;
+            font-weight: 800;
+            font-size: 1.6rem;
+            width: 56px;
+            height: 56px;
+            border-radius: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 8px 20px rgba(240, 185, 11, 0.3);
+        }
+
+        .brand-name {
+            font-size: 2.3rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+        }
+
+        .brand-name .gold {
+            color: #f0b90b;
+            font-weight: 300;
+        }
+
+        .badge {
+            background: rgba(240, 185, 11, 0.1);
+            border: 1px solid rgba(240, 185, 11, 0.3);
+            border-radius: 100px;
+            padding: 0.5rem 1.2rem;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: #f0b90b;
+            letter-spacing: 0.3px;
+        }
+
+        .hero {
+            margin-bottom: 4rem;
+        }
+
+        .hero h1 {
+            font-size: 3.2rem;
+            font-weight: 500;
+            line-height: 1.2;
+            max-width: 900px;
+            background: linear-gradient(135deg, #ffffff 0%, #c5d1e0 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero h1 span {
+            background: linear-gradient(135deg, #f0b90b, #fad65c);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 600;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            color: #9aaec5;
+            max-width: 700px;
+        }
+
+        .section-title {
+            font-size: 1.8rem;
+            font-weight: 500;
+            margin-bottom: 1.8rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .section-title .line {
+            flex: 1;
+            height: 1px;
+            background: linear-gradient(90deg, rgba(240,185,11,0.5), transparent);
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.8rem;
+            margin-bottom: 3.5rem;
+        }
+
+        .service-card {
+            background: rgba(12, 16, 22, 0.7);
+            border: 1px solid #2a313c;
+            border-radius: 2rem;
+            padding: 2rem 1.5rem;
+            transition: all 0.25s ease;
+        }
+
+        .service-card:hover {
+            border-color: #f0b90b40;
+
+End-to-end encrypted, open source. No metadata, no tracking.</p>
+                    <div style="display: flex; flex-direction: column; gap: 0.8rem;">
+                        <a href="https://signal.me/#eu/XS_5Zvf0Je4NxRsdvQiqMVNm98KF9ZBxxFljIZYn0WuWrZNqddpNVpJqhFKXoj5N" 
+                           target="_blank" 
+                           class="contact-button-primary">
+                            📲 Message on Signal
+                        </a>
+                        <a href="https://signal.org/download/" 
+                           target="_blank"
+                           class="contact-button-secondary">
+                           ↓ Get Signal App (free)
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- SimpleX -->
+                <div class="contact-card">
+                    <div class="contact-header">
+                        <span class="contact-icon">🔄</span>
+                        <span class="contact-title">SimpleX</span>
+                    </div>
+                    <p class="contact-desc">No user IDs. No phone numbers. Metadata-free private chat. The most private messenger.</p>
+                    <div style="display: flex; flex-direction: column; gap: 0.8rem;">
+                        <a href="https://smp17.simplex.im/a#Nm6oTjtmnxHZvwGLtF3KFdRqhPGi94lZr9D5vZ7bZ8M" 
+                           target="_blank" 
+                           class="simplex-button">
+                            🔗 Connect on SimpleX
+                        </a>
+                        <a href="https://simplex.chat/downloads/" 
+                           target="_blank"
+                           class="contact-button-secondary">
+                           ↓ Get SimpleX App (free)
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- privacy note -->
+            <p style="text-align: center; color: #5f738c; margin-top: 1.5rem; font-size: 0.9rem;">
+                ⚡ All messages encrypted · no logs · signal & simplex preferred · PGP available on request
+            </p>
+        </div>
+
+        <!-- payment methods -->
+        <div style="text-align: center; margin: 2rem 0; padding: 1.5rem; background: rgba(0,0,0,0.2); border-radius: 2rem;">
+            <p style="color: #f0b90b; font-weight: 500; margin-bottom: 0.5rem;">⚡ payments accepted</p>
+            <p style="color: #b4c8e0;">XMR · BTC · ETH · USDT · SOL · (no kyc, no questions)</p>
+        </div>
+
+        <!-- footer -->
+        <div class="footer-note">
+            <p>hodlprivate.io · contact via signal or simplex · no logs · no questions</p>
+            <p style="margin-top: 1rem; font-size: 0.85rem;">est. 2025 · everything is a package</p>
+        </div>
+    </div>
+</body>
+</html>
